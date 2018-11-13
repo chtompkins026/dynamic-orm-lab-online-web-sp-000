@@ -34,6 +34,10 @@ class InteractiveRecord
     DB[:conn].execute(sql)
   end
   
+  def self.find_by
+    
+  end 
+  
   #Instance Methods 
   
   def table_name_for_insert 
