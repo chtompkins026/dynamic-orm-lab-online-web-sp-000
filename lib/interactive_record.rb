@@ -3,6 +3,10 @@ require 'active_support/inflector'
 
 class InteractiveRecord
   
+  def initialize(options={})  
+    
+  end 
+  
   def self.table_name 
     self.to_s.downcase.pluralize 
   end 
@@ -20,6 +24,7 @@ class InteractiveRecord
    
     column_names.compact
   end
+  
 
 
 end #end of the InteractiveRecord class 
