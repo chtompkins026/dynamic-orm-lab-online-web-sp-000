@@ -46,6 +46,10 @@ class InteractiveRecord
     end
     values.join(", ")
   end 
+  
+  def save 
+    
+  end 
 
 
 end #end of the InteractiveRecord class 
