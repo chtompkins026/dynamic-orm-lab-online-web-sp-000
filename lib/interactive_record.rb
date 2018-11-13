@@ -28,6 +28,13 @@ class InteractiveRecord
     column_names.compact
   end
   
+  
+  #Instance Methods 
+  
+  def table_name_for_insert 
+    self.class.table_name 
+  end 
+  
 
 
 end #end of the InteractiveRecord class 
