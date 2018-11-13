@@ -29,6 +29,10 @@ class InteractiveRecord
   end
   
   
+  def self.find_by_name(name)
+    
+  end 
+  
   #Instance Methods 
   
   def table_name_for_insert 
