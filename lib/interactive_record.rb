@@ -3,4 +3,10 @@ require 'active_support/inflector'
 
 class InteractiveRecord
   
-end
+  def self.table_name 
+    
+  end 
+
+
+
+end #end of the InteractiveRecord class 
